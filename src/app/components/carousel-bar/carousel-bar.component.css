@@ -1,0 +1,23 @@
+.down{
+    vertical-align:  middle;
+    color: rgb(149, 148, 148);
+
+}
+.carousel_bar{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+/* img{
+    height: 10%;
+    width: 100%;
+} */
+
+.ad{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.ad>img{
+    width: 80% !important;
+}

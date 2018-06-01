@@ -1,0 +1,10 @@
+.popular_stores{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap: 45px;
+}
+
+.popular_stores_items>img{
+    width:100%;
+    height: 80% !important;
+}

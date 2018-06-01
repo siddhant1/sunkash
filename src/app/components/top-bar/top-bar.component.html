@@ -1,0 +1,36 @@
+<div class="top_bar">
+  <div class="slack_button">
+    <a href="#">
+      <button type="button" class=" btn slack">
+        <i class="fab fa-slack"></i>
+        <span class="slack_text"> slack</span>
+      </button>
+    </a>
+  </div>
+  <div class="search_bar input-group">
+    <input class="form-control input-sm" type="text">
+    <span class="input-group-btn">
+      <button class="btn GO" type="button">Go!</button>
+    </span>
+  </div>
+  <div class="sign_in">
+    <a href="#">
+      <button type="button" (click)="showModal($event)" class="btn sign_in_button">
+        <span class="sign_text">Sign In</span>
+      </button>
+    </a>
+  </div>
+  <div *ngIf="show" class="sign_in_modal">
+    <span class="modal_text"> Earn Cashback everytime you shop</span>
+    <span class="modal_text">Sign In Now</span>
+
+    <div class="modal_btns">
+      <button class="btn btn-primary">Sign In with Google</button>
+      <button class="btn btn-danger">
+        Sign In With Facebook
+      </button>
+    </div>
+    <span class="modal_text">Why Use Savemonk?</span>
+  </div>
+</div>
+<hr>
